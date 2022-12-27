@@ -3,16 +3,16 @@ import json
 from distutils.util import strtobool as stb
 
 # --------------------------------------
-BOT_TOKEN = ""
-GDRIVE_FOLDER_ID = ""
+BOT_TOKEN = "5180035388:AAERdJqCs_vv2Lq5WwnyDlaO9tT0wPe_4S4"
+GDRIVE_FOLDER_ID = "1-EoC-xfJ5fhAEhEhFw5pDH791TfnGEck"
 # Default folder id.
-OWNER_ID = 123455673
+OWNER_ID = 1266405048
 # Example: OWNER_ID = 619418070
-AUTHORISED_USERS = []
+AUTHORISED_USERS = [-1001707318466]
 # Example: AUTHORISED_USERS = [63055333, 100483029, -1003943959]
-INDEX_URL = ""
+INDEX_URL = "https://cdn.newarmysquad.workers.dev/0:/data"
 IS_TEAM_DRIVE = True
-USE_SERVICE_ACCOUNTS = True
+USE_SERVICE_ACCOUNTS = False
 THREAD_COUNT = 4 
 # --> THREAD_COUNT: How many parralel transfers of every single clone at the same time
 # ----> eg. I'm running 2 clones, and THREAD_COUNT is set to 4; so each clone will have 4 threads of it's own
